@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.form {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.top-form-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.logo-sign-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.welcome-text-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-text-container h1 {
+  font-size: clamp(1.25rem, 1vw + 1rem, 2rem);
+  color: #000;
+  font-weight: 600;
+}
+
+.welcome-text-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #667085;
+}
+
+.input-group-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+.input-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.input-group input {
+  padding: 0.875rem;
+  border-radius: 24px;
+  border: solid 0.5px #d0d5dd;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 120%;
+  font-weight: 450;
+  color: #667085;
+}
+.forgot-password {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+}
+.forgot-password p {
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+.sign-up-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.sign-up-button button {
+  width: 100%;
+  padding: 0.875rem;
+  border-radius: 24px;
+  background-color: #000;
+  color: white;
+  font-size: 1rem;
+  line-height: 120%;
+  font-weight: 450;
+  margin-bottom: 1rem;
+}
+.divider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.bottomform-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.google-user-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: center;
+}
+.google-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.google-container button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 24px;
+  background-color: white;
+  border: solid 0.5px #d0d5dd;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 0.5rem;
+  color: black;
+}
+.google-container img {
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.new-user-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.new-user-container p {
+  font-weight: 450;
+  color: #667085;
+  font-size: 1rem;
+}
+.new-user-container a {
+  color: #000;
+  margin-left: 0.5rem;
+}
+.terms-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.terms-container p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #667085;
+  text-align: center;
+}
+.terms-container a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #111318;
+}
+
+@media screen and (max-width: 948px) {
+  .form {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 751px) {
+  .form {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 554px) {
+  .new-user-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 504px) {
+  .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 365px) {
+  .welcome-text-container p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #667085;
+  }
+  .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}

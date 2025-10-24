@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fffdf9;
+}
+.main-container {
+  width: 840px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 3.5rem;
+}
+.first-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.nav-links {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  column-gap: 2rem;
+}
+.nav-links a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+}
+.hero-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.hero-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 350;
+  color: #3c2d00;
+  line-height: 160%;
+  letter-spacing: -1%;
+}
+.buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 1.5rem;
+}
+.contact-button {
+  width: 11.25rem;
+  height: 4.063rem;
+  padding: 1.125rem;
+  background-color: #c78500;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 300;
+  border: solid 1px #1d1300;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  column-gap: 0.5rem;
+}
+.resume-button {
+  width: 11.25rem;
+  height: 4.063rem;
+  padding: 1.125rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 120%;
+  border: solid 1px #1d1300;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  column-gap: 0.5rem;
+}
+.second-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.past-work {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+.past-work h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 120%;
+}
+.work-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  column-gap: 2rem;
+}
+.secondwork-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.frames {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  column-gap: 1.688rem;
+}
+.third-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+.get-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  margin-bottom: 2rem;
+}
+.get-box p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #000000;
+  line-height: 120%;
+}
+.get-box h3 {
+  font-size: 2rem;
+  font-weight: 350;
+  color: #000000;
+  line-height: 160%;
+  letter-spacing: -1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ndbuttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
